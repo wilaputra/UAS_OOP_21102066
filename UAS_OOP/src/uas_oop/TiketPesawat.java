@@ -31,30 +31,30 @@ public class TiketPesawat {
         ArrayList<Jadwal> Schedule = new ArrayList<Jadwal>();
 
         Tiket.add(new Maskapai("Garuda", "Bali", "Lombok"));          
-        Schedule.add(new Jadwal(0, "Pagi", 10, 11, 3000000));
-        Schedule.add(new Jadwal(0, "Sore", 15, 16, 3000000));
+        Schedule.add(new Jadwal(0, "Pagi", 10, 11, 2900000));
+        Schedule.add(new Jadwal(0, "Siang", 15, 16, 3300000));
 
         Tiket.add(new Maskapai("Garuda", "Bali", "Jogja"));          
-        Schedule.add(new Jadwal(1, "Pagi", 12, 14, 4000000));
+        Schedule.add(new Jadwal(1, "Pagi", 12, 14, 4500000));
         Schedule.add(new Jadwal(1, "Sore", 18, 20, 4000000));
 
         Tiket.add(new Maskapai("Garuda", "Jakarta", "Bali"));          
-        Schedule.add(new Jadwal(2, "Pagi", 14, 17, 5000000));
-        Schedule.add(new Jadwal(2, "Sore", 20, 23, 5000000));
+        Schedule.add(new Jadwal(2, "Pagi", 14, 17, 3000000));
+        Schedule.add(new Jadwal(2, "Siang", 20, 23, 5500000));
         Schedule.add(new Jadwal(5, "Sore", 20, 23, 4000000));
 
         Tiket.add(new Maskapai("Batik Air", "Bali", "Bandung")); 
         Schedule.add(new Jadwal(3, "Pagi", 10, 11, 2000000));
-        Schedule.add(new Jadwal(3, "Sore", 20, 23, 2000000));
+        Schedule.add(new Jadwal(3, "Sore", 20, 23, 2700000));
 
         Tiket.add(new Maskapai("Batik Air", "Bali", "Jakarta")); 
         Schedule.add(new Jadwal(4, "Pagi", 12, 14, 3000000));
-        Schedule.add(new Jadwal(4, "Sore", 18, 20, 3000000));
+        Schedule.add(new Jadwal(4, "Sore", 18, 20, 3900000));
 
         Tiket.add(new Maskapai("Lion Air", "Jakarta", "Sulawesi")); 
-        Schedule.add(new Jadwal(5, "Pagi", 14, 17, 4000000));
-        Schedule.add(new Jadwal(5, "Sore", 20, 23, 4000000));
-        Schedule.add(new Jadwal(5, "Malam", 23, 20, 4000000));
+        Schedule.add(new Jadwal(5, "Pagi", 14, 17, 3200000));
+        Schedule.add(new Jadwal(5, "Sore", 20, 23, 3900000));
+        Schedule.add(new Jadwal(5, "Malam", 23, 20, 3600000));
 
         System.out.print("\033[H\033[2J");
         System.out.println("------ Pemesanan Tiket Maskapai ------n");              
