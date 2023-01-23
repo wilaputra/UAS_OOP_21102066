@@ -51,7 +51,7 @@ public class TiketPesawat {
         Schedule.add(new Jadwal(4, "Pagi", 12, 14, 3000000));
         Schedule.add(new Jadwal(4, "Sore", 18, 20, 3000000));
 
-        Tiket.add(new Maskapai("Batik Air", "Jakarta", "Sulawesi")); 
+        Tiket.add(new Maskapai("Lion Air", "Jakarta", "Sulawesi")); 
         Schedule.add(new Jadwal(5, "Pagi", 14, 17, 4000000));
         Schedule.add(new Jadwal(5, "Sore", 20, 23, 4000000));
         Schedule.add(new Jadwal(5, "Malam", 23, 20, 4000000));
